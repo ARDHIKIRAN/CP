@@ -1,3 +1,5 @@
+// [ (a^b) % mod ]
+// Time complexity : log(b)
 int BinaryExponentation(int a,int b){
     int res = 1;
     while(b){
